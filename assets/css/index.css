@@ -1,4 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .container{
     height: 200px;
     background: linear-gradient(#262626, #141e44,#262626);
@@ -17,7 +28,6 @@
     color: white;
     margin-left: 100px;
 }
-
-.logo{
-    margin-top: 20px;
+.boxlogo{
+    float: right;
 }
