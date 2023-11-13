@@ -15,19 +15,5 @@ body{
     background: linear-gradient(#262626, #141e44,#262626);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
-}
-
-.icon{
-    position: absolute;
-    margin-top: 70px;
-}
-
-.navbar-brand{
-    position: absolute;
-    margin-top: 80px;
-    color: white;
-    margin-left: 100px;
-}
-.boxlogo{
-    float: right;
+    
 }
