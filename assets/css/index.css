@@ -1,25 +1,48 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url(productos.css);
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
     background: radial-gradient(#D9D9D9,white);
 }
+<<<<<<< HEAD
+
+.container {
+=======
 /*Estilos header*/
 #contnav{
+>>>>>>> a170919240b7cd9d252fe4ed0a647600df466043
     height: 200px;
-    background: linear-gradient(#262626, #141e44,#262626);
+    background: linear-gradient(#262626, #141e44, #262626);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
 }
 
+<<<<<<< HEAD
+.icon {
+    position: absolute;
+    margin-top: 70px;
+}
+
+.navbar-brand {
+    position: absolute;
+    margin-top: 80px;
+    color: white;
+    margin-left: 100px;
+}
+
+.boxlogo {
+    float: right;
+}
+=======
 .boxicon{
     display: flex;
     color:white;
@@ -104,6 +127,7 @@ h1{
     height: 210px;
     margin-right: auto; 
 }
+<<<<<<< HEAD
 /*seccion 3*/
 #seccion3{
     height: 480px;
@@ -272,3 +296,6 @@ i{
 }
 
 
+=======
+>>>>>>> a170919240b7cd9d252fe4ed0a647600df466043
+>>>>>>> f785dc0e74fb9e10f869cfd7efe5ac602dd2097d

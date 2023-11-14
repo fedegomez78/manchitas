@@ -1,11 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/productos.css">
+    <link rel="shortcut icon" href="/assets/img/iconoManchitas.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Productos</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="boxicon">
+                <img src="/assets/img/iconoManchitas.png" alt="icono manchitas" class="icon">
+            </div>
+            <div class="boxnav">
+                <a href="#">Veterinaria</a>
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Productos</a>
+                <a href="#">Guardería</a>
+                <a href="#">Promociones</a>
+            </div>
+            <div class="boxlogo">
+                <img src="/assets/img/logoManchitas.png" alt="logo manchitas" class="logo">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>PRODUCTOS</h1>
+            <h2>Categorías</h2>
+            <hr>
+            <div class="categorias">
+                <a href="" class="categoria">
+                    <p>Alimento</p>
+                    <img src="/assets/img/productos/alimento.jpg" alt="Alimento">
+                </a>
+                <a href="" class="categoria">
+                    <p>Snacks</p>
+                    <img src="/assets/img/productos/snack.jpg" alt="Snack">
+                </a>
+                <a href="" class="categoria">
+                    <p>Vestimenta</p>
+                    <img src="/assets/img/productos/vestimenta.jpg" alt="Vestimenta">
+                </a>
+                <a href="" class="categoria">
+                    <p>Artículos</p>
+                    <img src="/assets/img/productos/correaperro.jpg" alt="Artículos">
+                </a>
+                <a href="" class="categoria">
+                    <p>Juguetes</p>
+                    <img src="/assets/img/productos/juguete.png" alt="Juguetes">
+                </a>
+                <a href="" class="categoria">
+                    <p>Camas</p>
+                    <img src="/assets/img/productos/gimansio.jpg" alt="Camas">
+                </a>
+                <a href="" class="categoria">
+                    <p>Baño</p>
+                    <img src="/assets/img/productos/baño.jpg" alt="Baño">
+                </a>
+                <a href="" class="categoria">
+                    <p>Otros</p>
+                    <img src="/assets/img/productos/pastilla.jpg" alt="Otros">
+                </a>
+            </div>
+            <hr>
+            <div class="agendatucita">
+                <h3>Agenda tu Cita Veterinaria</h3>
+                <button type="button">Clic aquí</button>
+            </div>
+        </section>
+        <section class="tienda">
+            <div class="busqueda">
+                <h3>Ordenar por:</h3>
+                <div class="filtros">
+                    <div>
+                        <label for="">Mascota</label>
+                        <select class="opcion" name="" id="">
+                            <option value="" selected="selected">Seleccione</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Categoría</label>
+                        <select class="opcion" name="" id="">
+                            <option " value="" selected=" selected">Seleccione</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Disponible</label>
+                        <input type="checkbox">
+                    </div>
+                    <button>Guardar</button>
+                </div>
+            </div>
+            <hr>
+            <div class="productos">
+                <h2>TODOS</h2>
+                <div id="allproducts">
+                    <div class="producto">
+                        <img src="/assets/img/productos/cuido.png" alt="">
+                        <h4>Producto</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <h5 id="precio">$ 0,000.00</h5>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/img/productos/cuido.png" alt="">
+                        <h4>Producto</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <h5 id="precio">$ 0,000.00</h5>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/img/productos/cuido.png" alt="">
+                        <h4>Producto</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <h5 id="precio">$ 0,000.00</h5>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/img/productos/cuido.png" alt="">
+                        <h4>Producto</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <h5 id="precio">$ 0,000.00</h5>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/img/productos/cuido.png" alt="">
+                        <h4>Producto</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <h5 id="precio">$ 0,000.00</h5>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/img/productos/cuido.png" alt="">
+                        <h4>Producto</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <h5 id="precio">$ 0,000.00</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="#" class="boxcontacto">
+                <img src="/assets/img/productos/contacto.png" alt="contáctanos" class="icon">
+                <span id="contactanos">Contáctanos</span>
+            </a>
+            <div class="boxsocial">
+                <span id="redes">
+                    Nuestras redes sociales
+                </span>
+                <div class="iconos">
+                    <a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook-official fa-2x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com" target="blank"><i class="fa fa-instagram fa-2x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com" target="blank"><i class="fa fa-youtube-play fa-2x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.whatsapp.com" target="blank"><i class="fa fa-whatsapp fa-2x"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="boxmap">
+                <a href="https://www.google.com/maps" target="blank">
+                    <img src="/assets/img/productos/mapa.png" alt="cómo llegar" class="logo">
+                    <span id="comollegar">Cómo llegar</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
