@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+/*-----------------------------------GLOBAL-----------------------------------------------------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #D9D9D9;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    background: unset;
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------------------------------CUERPO-----------------------------------------------------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+
+/*-----------------------------------------------------------HEADER-------------------------------------------------------------------------*/
+/*-------------------------------CONTENEDORES------------------------------------------*/
+.container {
+    display: flex;
+    height: 200px;
+    background: linear-gradient(#262626, #141e44, #262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    position: relative;
+}
+
+
+/*--------------------------CAJA DE LOS ITEMS DE LA BARRA DE NAVEGACIÓN--------------------*/
+.boxnav {
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    background: unset;
+}
+
+.boxnav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    background: unset;
+}
+
+
+/*----------------CAJA DEL ÍCONO DE LA BARRA DE NAVEGACIÓN--------------------------------*/
+.boxicon {
+    position: absolute;
+    left: 3%;
+    background: unset;
+}
+
+.icon {
+    float: left;
+    width: 70px;
+    background: unset;
+}
+
+
+/*----------------------CAJA DEL LOGO DE LA BARRA DE NAVEGACIÓN---------------------------*/
+.boxlogo {
+    right: 5%;
+    position: absolute;
+    background: unset;
+}
+
+.logo {
+    width: 350px;
+    background: unset;
+}
+
+
+/*--------------------------------------------------------------------MAIN-----------------------------------------------------------------*/
+/*-----------------CATEGORÍAS--------------------*/
+.categorias {
+    text-align: center;
+    display: flex;
+    padding: 15px;
+    width: 1000px;
+}
+
+.categoria {
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    padding: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: auto;
+}
+
+.categoria p {
+    background: unset;
+}
+
+.categoria img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+/*-----------------AGENDAR CITA-------------------*/
+.agendatucita {
+    border: unset;
+    display: flex;
+    font-size: small;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    position: absolute;
+    left: 23%;
+    top: 20%;
+    border-radius: 16px;
+    background: white;
+    width: 400px;
+    box-shadow: -5px 5px 8px #262626;
+}
+
+.agendatucita button {
+    right: 5%;
+    background: #00BF75;
+    padding: 8px 16px;
+    border: unset;
+    border-radius: 8px;
+    position: absolute;
+    color: white;
+}
+
+.agendatucita h3 {
+    font-size: medium;
+    background-color: unset;
+    position: absolute;
+    top: 28%;
+    left: 4%;
+}
+
+
+/*----------------------------------------------------------------------PRODUCTOS--------------------------------------------------------------*/
+/*-------------------------BARRA DE FILTRO-----------------------*/
+.tienda {
+    width: 1000px;
+}
+
+.busqueda {
+    display: inline-flex;
+    align-items: center;
+}
+
+.busqueda h3 {
+    position: absolute;
+}
+
+
+/*-------------------------SELECTS (FILTROS)-----------------------*/
+.filtros {
+    display: flex;
+    float: right;
+    margin-left: 350px;
+    height: 80px;
+    padding: 15px
+}
+
+.filtros button {
+    margin: 10px 0 0 70px;
+    padding: 6px;
+    border-radius: 7px;
+    border: unset;
+    background: #00BF75;
+    color: white;
+    font-size: small;
+    height: 40px;
+    width: 100px;
+}
+
+.opcion {
+    background: #bec5d4;
+    border-radius: 8px;
+    border: unset;
+}
+
+/*-------------------------TÍTULO DEL FILTRO-----------------------*/
+.tienda h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/*----------------------------------------------------------------------ALLPRODUCTS--------------------------------------------------------------*/
+/*-------------------------PRODUCTOS-----------------------*/
+.productos {
+    padding: 15px;
+}
+
+.productos h2 {
+    text-align: center;
+}
+
+#allproducts {
+    display: flex;
+}
+
+.producto {
+    margin: 10px 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.producto h4,
+h5 {
+    font-weight: bold;
+}
+
+.producto img {
+    width: 110px;
+    padding: 10px;
+}
+
+
+
+/*----------------------------------------------------------------------FOOTER--------------------------------------------------------------*/
+/*-------------------------CONTACTANOS DEL FOOTER-----------------------*/
+.boxcontacto {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 6%;
+    background: unset;
+}
+
+#contactanos {
+    position: absolute;
+    bottom: -40%;
+    left: -30%;
+    background: unset;
+}
+
+
+/*---------------------REDES SOCIALES DEL FOOTER-------------------------- */
+.boxsocial {
+    position: absolute;
+    color: white;
+    left: 40%;
+    bottom: 25%;
+    background: unset;
+}
+
+.boxsocial .iconos {
+    text-align: center;
+    margin-top: 15px;
+    background: unset;
+}
+
+#redes {
+    background: unset;
+}
+
+.iconos a {
+    text-decoration: none;
+    color: white;
+    background: unset;
+}
+
+.iconos i {
+    margin: 7px;
+    background: unset;
+}
+
+
+/*-------------------------MAPA DEL FOOTER------------------------*/
+.boxmap {
+    right: 5%;
+    bottom: 16%;
+    position: absolute;
+    color: white;
+    background: unset;
+}
+
+.boxmap a {
+    text-decoration: none;
+    background: unset;
+}
+
+#comollegar {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background: unset;
+}
+
+.boxmap img {
+    width: 80px;
+}
