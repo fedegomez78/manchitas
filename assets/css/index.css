@@ -9,15 +9,24 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: radial-gradient(#D9D9D9,white);
 }
+<<<<<<< HEAD
 
 .container {
+=======
+/*Estilos header*/
+#contnav{
+>>>>>>> a170919240b7cd9d252fe4ed0a647600df466043
     height: 200px;
     background: linear-gradient(#262626, #141e44, #262626);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
 }
 
+<<<<<<< HEAD
 .icon {
     position: absolute;
     margin-top: 70px;
@@ -33,3 +42,86 @@ body {
 .boxlogo {
     float: right;
 }
+=======
+.boxicon{
+    display: flex;
+    color:white;
+    align-items: center;
+}
+
+h4{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold; 
+}
+.boxmenu{
+    display: flex;
+}
+.boxmenu a{
+    color: azure;
+    padding:15px;
+}
+
+.boxmenu a:hover{
+    color: yellowgreen;
+    font-weight:bold;
+}
+
+
+.boxlogo img{
+    margin-left: auto;
+    font-size: larger;
+}
+/*estilos seccion 1*/
+#seccion1{
+    height: 260px;
+    margin-top: 40px;
+    display: flex;
+}
+
+#boxtext{
+    width: 32%;
+}
+
+#boximg1{
+    width: 68%;
+}
+
+#imgcat1{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    height: 260px;
+    margin-left: 50%;
+}
+
+/*seccion 2*/
+#seccion2{
+    height: 500px;
+    display: flex;
+}
+
+#boxtext2{
+    width: 20%;
+}
+#boximg2{
+    width: 65%;
+}
+#boximg3{
+    width: 15%;
+}
+
+#imgcatdog1{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 500px;
+    margin-left: 12%;
+}
+
+#imgdog1{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 180px;
+    height: 210px;
+    margin-right: auto; 
+}
+>>>>>>> a170919240b7cd9d252fe4ed0a647600df466043
