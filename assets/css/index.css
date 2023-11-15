@@ -6,6 +6,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    z-index: 1;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     background: radial-gradient(#D9D9D9,white);
@@ -269,6 +274,46 @@ i{
     transform: scale(1.2);
     transition:1s;
     font-weight: bold;
+}
+
+/*Footer*/
+
+#contfooter{
+    height: 200px;
+    background: linear-gradient(#262626, #141e44,#262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+#contfooter h4{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+.boxcontac{
+    width: 33.3333%;
+}
+
+.boxredes{
+    width: 33.3333%;
+}
+
+.fa-brands{
+    padding: 10px;
+}
+
+.boxmapa{
+    width: 33.3333%;
+}
+
+.fa-solid{
+    padding-bottom: 10px;
 }
 
 
