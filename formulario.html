@@ -50,36 +50,19 @@
                 <h3>“El amor que sientes por tu mascota es la mejor razón para cuidar de su salud” </h3>
             </div>
             <div class="secform" id="ladoder">
-                <form action="form" id="formascota">
+                <form action="form" id="formcita">
                     <h4>Datos de la mascota</h4>
-                    <input type="text" class="form-control" name="nombre" id="idnom" required="required" placeholder="Nombre*">
-                    <input type="number" class="form-control" name="number" id="idemail" required="required" placeholder="Edad*" >
-                    <input type="text" class="form-control" name="asunto" id="idasunto" placeholder="Raza">
+                    <input type="text" class="form-control" name="nombre" id="idnom" required="required" placeholder="Nombre mascota*">
+                    <input type="number" class="form-control" name="number" id="idemail" required="required" placeholder="Edad mascota en años*" >
+                    <input type="text" class="form-control" name="asunto" id="idasunto" placeholder="Raza mascota">
+                    <input type="date" class="form-control" name="fecha" id="idfecha" required="required" placeholder="Fecha*">
+                    <input type="time" class="form-control" name="hora" id="idhora" required="required" placeholder="Hora*">
+                    <input type="text" class="form-control" name="nombred" id="idnomd" required="required" placeholder="Nombre dueño*">
                     <hr>
-                </form>
-                <form action="form" id="formamo">
-                    <h4>Datos del Amo</h4>
-                    <input type="text" class="form-control" name="nombrea" id="idnoma" required="required" placeholder="Nombre Amo*">
-                    <input type="email" class="form-control" name="email" id="idemail" required="required" placeholder="Correo*" >
-                    <input type="tel" class="form-control" name="tel" id="idtel" placeholder="Teléfono">
-                    <hr>
-                </form>
+                    <input type="submit" id="button"  onclick='onSubmit()' value="Enviar mensaje">
+                </form> 
             </div>
         </section>
-        <form action="form" id="fcita">
-            <h4>Datos de la cita</h4>
-            <input type="text" class="form-control" name="nombre" id="idnom" required="required" placeholder="Nombre*">
-            <br>
-            <input type="email" class="form-control" name="email" id="idemail" required="required" placeholder="Correo electrónico*" >
-            <br>
-            <input type="text" class="form-control" name="asunto" id="idasunto" placeholder="Tema o asunto">
-            <br>
-            <textarea type="text" class="form-control" name="mensaje" id="idmensaje" placeholder="Mensaje*"></textarea>
-            <br>
-            <div class="">
-                <input type="submit" id="button"  onclick='onSubmit()' value="Enviar mensaje"> 
-            </div>
-        </form>
     </main>
     <footer>
         <div class="container" id="contfooter">

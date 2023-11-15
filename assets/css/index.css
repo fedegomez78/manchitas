@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-header{
-    z-index: 1;
-}
-
 body{
     font-family: 'Poppins', sans-serif;
     background: radial-gradient(#D9D9D9,white);
@@ -23,6 +19,7 @@ body{
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .boxicon{
@@ -80,6 +77,11 @@ h1{
     height: 260px;
 }
 
+#imgcat1:hover{
+    box-shadow: 1px 3px 8px #262626;
+    transition:1s;
+}
+
 /*seccion 2*/
 #seccion2{
     height: 500px;
@@ -102,6 +104,10 @@ h1{
     height: 480px;
 }
 
+#imgcatdog1:hover{
+    box-shadow: 1px 3px 8px #262626;
+}
+
 #imgdog1{
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -109,6 +115,11 @@ h1{
     height: 210px;
     margin-right: auto; 
 }
+
+#imgdog1:hover{
+    box-shadow: 1px 3px 8px #262626;
+}
+
 /*seccion 3*/
 #seccion3{
     height: 480px;

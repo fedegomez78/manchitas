@@ -72,12 +72,6 @@ section{
 
 #ladoder{
     margin: 10px;
-    display: flex;
-}
-
-#fcita{
-    position: absolute;
-    margin-left: 100%;
 }
 
 .grupo1{
@@ -87,6 +81,23 @@ section{
     display: flex;
     width: 120px;
 }
+.grupo1:hover{
+    transform: translateX(40px);
+    transition: transform 1s ease-out;
+}
+
+.grupo2:hover{
+    transform: translateX(40px);
+    transition: transform 1s ease-out;
+}
+
+.grupo3:hover{
+    transform: translateX(40px);
+    transition: transform 1s ease-out;
+}
+
+
+
 
 .grupo2{
     margin-top: 12%;
@@ -127,15 +138,37 @@ section{
 }
 
 .form-control{
-    background-color: #3b38381b;
+    background-color: #3b383840;
     border: none;
 }
+
+#ladoder{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form{
+    text-align: center;
     margin: 10px;
 }
 input{
-    margin: 5px;
+    width: 500px;
+    margin: 10px;
 }
+
+#button{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    width: auto;
+    color: yellow;
+    height: 40px;
+    background-color:#141e44;
+    border-radius: 15px;
+
+}
+
+
 
 
 
