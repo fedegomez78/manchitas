@@ -71,7 +71,10 @@ section{
 }
 
 #ladoder{
-    margin: 10px;
+    text-align: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grupo1{
@@ -142,16 +145,15 @@ section{
     border: none;
 }
 
-#ladoder{
-    margin-left: auto;
-    margin-right: auto;
-}
-
 form{
-    text-align: center;
     margin: 10px;
 }
 input{
+    width: 500px;
+    margin: 10px;
+}
+
+select{
     width: 500px;
     margin: 10px;
 }
@@ -160,12 +162,23 @@ input{
     padding-left: 15px;
     padding-right: 15px;
     font-weight: bold;
-    width: auto;
+    width: 150px;
     color: yellow;
     height: 40px;
     background-color:#141e44;
     border-radius: 15px;
 
+}
+
+#breset{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    width: 150px;
+    color: yellow;
+    height: 40px;
+    background-color:#141e44;
+    border-radius: 15px;
 }
 
 
