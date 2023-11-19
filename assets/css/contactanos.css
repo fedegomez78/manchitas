@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#franja1{
+    background:  linear-gradient(to right, #141E44,#262626);
+    height:5vh;
+}
+#franja2{
+    background: linear-gradient(to left,#006840,#00BF75);
+    height:5vh;
+}
+#franja3{
+    background: linear-gradient(to right,#262626,#141E44);
+    height:5vh;  
+}
+
+
+#containerform{
+    height: 70vh;
+    background: linear-gradient(to right,#fff,#fff,#ececec,#f3f3f3,#ececec,#fff,#fff);
+}
+#idmensaje{
+    height: 20vh;
+}
+.form-control{
+    border: none;
+}
+#button{
+    color: #c3fff7;
+    padding: 10px;
+    background-color: #27374D;
+    border: 0;
+    border-radius:30px;
+    box-shadow: 3px 2px 5px #9DB2BF;
+}
+.bimenu{
+    color: #fff;
+}
+
+.link{
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
