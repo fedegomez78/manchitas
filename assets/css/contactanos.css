@@ -17,7 +17,6 @@
     height:5vh;  
 }
 
-
 #containerform{
     height: 70vh;
     background: linear-gradient(to right,#fff,#fff,#ececec,#f3f3f3,#ececec,#fff,#fff);
@@ -29,7 +28,7 @@
     border: none;
 }
 #button{
-    color: #c3fff7;
+    color: #fff;
     padding: 10px;
     background-color: #27374D;
     border: 0;
