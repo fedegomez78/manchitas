@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(#D9D9D9,white);
+}
+/*Estilos header*/
+#contnav{
+    height: 200px;
+    background: linear-gradient(#262626, #141e44,#262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.boxicon{
+    display: flex;
+    color:white;
+    align-items: center;
+}
+
+h4{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold; 
+}
+.boxmenu{
+    display: flex;
+}
+.boxmenu a{
+    color: azure;
+    padding:15px;
+}
+
+.boxmenu a:hover{
+    color: yellowgreen;
+    font-weight:bold;
+}
+
+
+.boxlogo img{
+    margin-left: auto;
+    font-size: larger;
+}
+
+
+
+/*Footer*/
+
+#contfooter{
+    height: 200px;
+    background: linear-gradient(#262626, #141e44,#262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+#contfooter h4{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+.boxcontac{
+    width: 33.3333%;
+}
+
+.boxredes{
+    width: 33.3333%;
+}
+
+.fa-brands{
+    padding: 10px;
+}
+
+.boxmapa{
+    width: 33.3333%;
+}
+
+.fa-solid{
+    padding-bottom: 10px;
+}

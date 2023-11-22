@@ -5,7 +5,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #D9D9D9;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(#D9D9D9,white);
 }
 
 h1 {
@@ -29,60 +33,45 @@ main {
 
 /*-----------------------------------------------------------HEADER-------------------------------------------------------------------------*/
 /*-------------------------------CONTENEDORES------------------------------------------*/
-.container {
-    display: flex;
+#contnav{
     height: 200px;
-    background: linear-gradient(#262626, #141e44, #262626);
+    background: linear-gradient(#262626, #141e44,#262626);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
+    display: flex;
     align-items: center;
-    position: relative;
+    z-index: 1;
+}
+
+.boxicon{
+    display: flex;
+    color:white;
+    align-items: center;
+}
+
+h4{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold; 
+}
+.boxmenu{
+    display: flex;
+}
+.boxmenu a{
+    color: azure;
+    padding:15px;
+}
+
+.boxmenu a:hover{
+    color: yellowgreen;
+    font-weight:bold;
 }
 
 
-/*--------------------------CAJA DE LOS ITEMS DE LA BARRA DE NAVEGACIÓN--------------------*/
-.boxnav {
-    position: absolute;
-    left: 10%;
-    text-align: center;
-    background: unset;
+.boxlogo img{
+    margin-left: auto;
+    font-size: larger;
 }
-
-.boxnav a {
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    font-weight: bold;
-    background: unset;
-}
-
-
-/*----------------CAJA DEL ÍCONO DE LA BARRA DE NAVEGACIÓN--------------------------------*/
-.boxicon {
-    position: absolute;
-    left: 3%;
-    background: unset;
-}
-
-.icon {
-    float: left;
-    width: 70px;
-    background: unset;
-}
-
-
-/*----------------------CAJA DEL LOGO DE LA BARRA DE NAVEGACIÓN---------------------------*/
-.boxlogo {
-    right: 5%;
-    position: absolute;
-    background: unset;
-}
-
-.logo {
-    width: 350px;
-    background: unset;
-}
-
 
 /*--------------------------------------------------------------------MAIN-----------------------------------------------------------------*/
 /*-----------------CATEGORÍAS--------------------*/
@@ -135,7 +124,7 @@ main {
     border-radius: 16px;
     background: white;
     width: 400px;
-    box-shadow: -5px 5px 8px #262626;
+    box-shadow: -3px 2px 4px #262626;
 }
 
 .agendatucita button {
@@ -227,8 +216,7 @@ main {
     padding: 5px;
 }
 
-.producto h4,
-h5 {
+.producto h4,h5 {
     font-weight: bold;
 }
 
@@ -241,74 +229,40 @@ h5 {
 
 /*----------------------------------------------------------------------FOOTER--------------------------------------------------------------*/
 /*-------------------------CONTACTANOS DEL FOOTER-----------------------*/
-.boxcontacto {
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    left: 6%;
-    background: unset;
+#contfooter{
+    height: 200px;
+    background: linear-gradient(#262626, #141e44,#262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
 }
-
-#contactanos {
-    position: absolute;
-    bottom: -40%;
-    left: -30%;
-    background: unset;
-}
-
-
-/*---------------------REDES SOCIALES DEL FOOTER-------------------------- */
-.boxsocial {
-    position: absolute;
-    color: white;
-    left: 40%;
-    bottom: 25%;
-    background: unset;
-}
-
-.boxsocial .iconos {
+#contfooter h4{
     text-align: center;
-    margin-top: 15px;
-    background: unset;
+    color: blanchedalmond;
 }
 
-#redes {
-    background: unset;
-}
-
-.iconos a {
-    text-decoration: none;
+footer{
+    text-align: center;
     color: white;
-    background: unset;
 }
 
-.iconos i {
-    margin: 7px;
-    background: unset;
+.boxcontac{
+    width: 33.3333%;
 }
 
-
-/*-------------------------MAPA DEL FOOTER------------------------*/
-.boxmap {
-    right: 5%;
-    bottom: 16%;
-    position: absolute;
-    color: white;
-    background: unset;
+.boxredes{
+    width: 33.3333%;
 }
 
-.boxmap a {
-    text-decoration: none;
-    background: unset;
+.fa-brands{
+    padding: 10px;
 }
 
-#comollegar {
-    color: white;
-    text-decoration: none;
-    display: block;
-    background: unset;
+.boxmapa{
+    width: 33.3333%;
 }
 
-.boxmap img {
-    width: 80px;
+.fa-solid{
+    padding-bottom: 10px;
 }
