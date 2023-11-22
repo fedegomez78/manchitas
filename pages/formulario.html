@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../assets/css/formulario.css">
     <script src="https://kit.fontawesome.com/a2c25d4acb.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/img/iconoManchitas.png">
+    <script src="../assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
     <title>formulario</title>
 </head>
 <body class="container" id="cuerpo">
@@ -90,5 +93,14 @@
             </div>  
         </div>
     </footer>
+    <script>    
+        $(document).ready(function(){
+            $("#razas").select2({
+                placeholder: 'Seleccione una raza',
+                allowClear: true,
+                width: '100%'
+            });
+        });
+    </script>
 </body>
 </html>
