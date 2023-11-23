@@ -8,16 +8,14 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg,#fff,#fff, #d9dada,#fff,#fff);
 }
 
-main section{
-    background-color: #141e44;
-}
 /*header*/
 #contnav{
     height: 200px;
-    background: linear-gradient(180deg,#00BF75, #01633d,#01633d,#00BF75);
+    background: linear-gradient(#262626, #141e44,#262626);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -30,11 +28,6 @@ main section{
     align-items: center;
 }
 
-h4{
-    padding-left: 10px;
-    padding-right: 20px;
-    font-weight: bold; 
-}
 .boxmenu{
     display: flex;
 }
@@ -54,33 +47,39 @@ h4{
     margin-right: auto;
     font-size: larger;
 }
+
+/*titulo seccion*/
+
 .subtitulo{
     text-align: center;
-    padding: 30px;
+    margin: 20px;
+    
 }
 
 h1{
-    color: aliceblue;
-    font-size: xxx-large; 
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold;
 }
 
 /*estilos seccion 1*/
+
 .pack1{
     margin: 20px;
     display: flex;
-    color: aliceblue;
-    padding-inline: 10px;
+    color: aliceblue; 
 }
 
 
 .sec1{
     height: 350px;
     width: 250px;
-    padding: 10px;
-    border-top-right-radius: 80px;
-    border-bottom-left-radius: 80px;
-    margin: 20px;
+    padding: 15px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    margin: 10px;
 }
+
 
 #diurna{
     background-color: #00BF75;
@@ -102,9 +101,9 @@ h1{
     background-color: #fff;
     width: 200px;
     height: 220px;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 60px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30%;
@@ -112,6 +111,60 @@ h1{
     padding-block: 40px;
     padding-right: 20px;
     padding-left: 20px;
+    box-shadow: 2px 2px 6px #373838;
+
+}
+
+/*estilos seccion 2*/
+
+.pack2{
+    float: right;
+    display: flex;
+    color: aliceblue;
+    text-align: right;
+    margin-right: 175px;
+}
+
+.sec2{
+    height: 350px;
+    width: 250px;
+    padding: 15px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    margin: 10px;
+}
+
+#entrena{
+    background-color: #373838;
+    align-items: center;
+}
+
+#transporte{
+    background-color: #6f7070;
+    align-items: center;
+}
+
+#camaras{
+    background-color: #00BF75;
+    align-items: center;
+}
+
+.burbuja2{
+    color: #262626;
+    background-color: #fff;
+    width: 200px;
+    height: 220px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    text-align: center;
+    padding-block: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 6px #373838;
 
 }
 
