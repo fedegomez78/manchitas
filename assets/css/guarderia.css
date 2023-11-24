@@ -168,6 +168,114 @@ h1{
 
 }
 
+/*Estilos seccion 3 OTROS SERVICIOS*/
+
+#seccion2{
+    float: inline-end;
+    margin-top: 20px;
+}
+
+.servicios{
+    display: flex;
+    width: 100%;
+}
+
+.otros{
+    display: flex;
+}
+
+/* flotante cota*/
+
+.ladoCita{
+    width: 30%;
+}
+
+.cajaCita{
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: #414040 3px 2px 6px;
+}
+
+.botonCita{
+    height: 40px;
+    width: 120px;
+    background-color: #00BF75;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: #414040 2px 2px 4px;
+    padding-top: 8px;
+}
+
+.botonCita a{
+    text-decoration: none;
+    color:#fff;
+}
+
+h5{
+    font-weight: bolder;
+}
+
+#imghuellas{
+    width: 400px;
+}
+
+#tematico{
+    background-color: #00BF75;
+    color: #fff;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    padding: 50px 30px;
+    font-size: large;
+    margin-top: 22%;
+}
+
+/* semicirculos otros servicios*/
+
+#spa{
+    background-color: #ffffff;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    width: 60%;
+    height: 40%;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+
+#paseos{
+    background-color: #414040;
+    color: #fff;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 40%;
+    height: 35%;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    margin-top: 22%;
+}
+
+/*seccion 3 video*/
+#seccion3{
+    display: flex;
+    align-items: center;
+}
+
+video{
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: #6f7070 2px 1px 3px;
+}
 
 
 /*footer*/
