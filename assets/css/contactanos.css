@@ -1,46 +1,257 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-#franja1{
-    background:  linear-gradient(to right, #141E44,#262626);
-    height:5vh;
-}
-#franja2{
-    background: linear-gradient(to left,#006840,#00BF75);
-    height:5vh;
-}
-#franja3{
-    background: linear-gradient(to right,#262626,#141E44);
-    height:5vh;  
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #fff, #fff, #d9dada, #fff, #fff);
 }
 
-#containerform{
-    height: 70vh;
-    background: linear-gradient(to right,#fff,#fff,#ececec,#f3f3f3,#ececec,#fff,#fff);
+/*header*/
+#contnav {
+    height: 200px;
+    background: linear-gradient(#262626, #141e44, #262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    border: 3px solid yellowgreen;
 }
-#idmensaje{
+
+.boxicon {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+h4 {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.boxmenu {
+    display: flex;
+}
+
+.boxmenu a {
+    color: azure;
+    padding: 15px;
+}
+
+.boxmenu a:hover {
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.boxlogo img {
+    margin-left: 40px;
+    margin-right: auto;
+    font-size: larger;
+    width: 90%;
+}
+
+/*-----------------AGENDAR CITA-------------------*/
+.agendatucita {
+    border: unset;
+    display: flex;
+    font-size: small;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    position: absolute;
+    left: 24%;
+    top: 16%;
+    border-radius: 16px;
+    background: white;
+    width: 350px;
+    box-shadow: -3px 2px 4px #262626;
+    z-index: 1;
+}
+
+.agendatucita button {
+    right: 5%;
+    background: #00BF75;
+    padding: 8px 16px;
+    border: unset;
+    border-radius: 8px;
+    color: white;
+    top: 15%;
+    position: absolute;
+}
+
+.agendatucita button:hover {
+    background: #009159
+}
+
+.agendatucita h3 {
+    font-size: medium;
+    background-color: unset;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+
+/*footer*/
+#contfooter {
+    height: 200px;
+    background: linear-gradient(#262626, #141e44, #262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    border: 3px solid yellowgreen;
+    text-align: center;
+    color: blanchedalmond;
+    display: flex;
+}
+
+#contfooter h4 {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.boxcontac,
+.boxcontac h4,
+.boxcontac i,
+.boxcontac a {
+    width: auto;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+.boxredes,
+.boxredes h4,
+.boxredes i {
+    width: auto;
+    padding: 0;
+}
+
+.boxredes i {
+    margin-left: 12px;
+    margin-top: 30px;
+}
+
+.boxmapa,
+.boxmapa h4,
+.boxmapa i,
+.boxmapa a {
+    width: auto;
+    text-decoration: none;
+    padding: 0;
+}
+
+.boxcontac,
+.boxredes,
+.boxmapa {
+    width: 415px;
+}
+
+#creadopor {
+    position: absolute;
+    bottom: -18%;
+    right: 39%;
+    color: blanchedalmond;
+}
+
+
+
+/* main */
+#franja1 {
+    background: linear-gradient(to right, #141E44, #262626);
+    height: 5vh;
+}
+
+#franja2 {
+    background: linear-gradient(to left, #006840, #00BF75);
+    height: 5vh;
+}
+
+#franja3 {
+    background: linear-gradient(to right, #262626, #141E44);
+    height: 5vh;
+}
+
+#containerform {
+    height: 70vh;
+    background: linear-gradient(to right, #fff, #fff, #ececec, #f3f3f3, #ececec, #fff, #fff);
+}
+
+#idmensaje {
     height: 20vh;
 }
-.form-control{
+
+.form-control {
     border: none;
 }
-#button{
+
+#button {
     color: #fff;
     padding: 10px;
     background-color: #27374D;
     border: 0;
-    border-radius:30px;
+    border-radius: 30px;
     box-shadow: 3px 2px 5px #9DB2BF;
 }
-.bimenu{
+
+.bimenu {
     color: #fff;
 }
 
-.link{
+.link {
     text-decoration: none;
     letter-spacing: 5px;
     font-weight: bold;
+}
+
+
+
+form {
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 20px;
+    position: absolute;
+    width: 600px;
+    left: 13%;
+    top: 26%;
+    background: radial-gradient(#262626, #141e44, #262626);
+    opacity: 98%;
+}
+
+#banner {
+    margin: 2% 0 2% 5%;
+    width: 1315px;
+    height: 575px;
+    position: absolute;
+    top: 20.2%;
+    left: 6%;
+    border-radius: 20px;
+}
+
+
+#imagentexto h3 {
+    z-index: 1;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+#imagentexto div {
+    margin: 2% 0 2% 5%;
+    width: 1315px;
+    height: 575px;
+    position: absolute;
+    top: 20.2%;
+    left: 6%;
+    background-color: #141e44;
+    opacity: 50%;
+    border-radius: 20px;
 }

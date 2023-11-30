@@ -1,91 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/contactanos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/contactanos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/a2c25d4acb.js" crossorigin="anonymous"></script>
     <title>Contáctanos</title>
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <div class="row" id="rowheader">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center" id="colheader" >
-                    <div class="franjash pt-2" id="franja1">
-                        <a class="link" href="../pages/index.html" style="color: #fff;">Ir a menú</a>
-                    </div>
-                    <div class="franjash pt-1" id="franja2">
-                        <a href="../index.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"  class="bimenu bi-list" viewBox="0 0 16 16">
-                              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="franjash" id="franja3"></div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center align-self-center">
-                    <img src="../assets/img/logoManchitas.png" class="img-fluid" alt="logo machitas responsivo">
-                </div>
-                <div class="col-2">
-                    <div class="franjash" id="franja1"></div>
-                    <div class="franjash" id="franja2"></div>
-                    <div class="franjash" id="franja3"></div>
-                </div>
+        <div class="container" id="contnav">
+            <div class="boxicon">
+                <img src="/assets/img/iconoManchitas.png" alt="icono manchitas" width="60" height="60" class="icon">
+                <h4>Veterinaria</h4>
+            </div>
+            <div class="boxmenu">
+                <a class="navbar-brand align-text-top " href="/pages/index.html">Inicio</a>
+                <a class="navbar-brand align-text-top " href="/pages/servicios.html">Servicios</a>
+                <a class="navbar-brand align-text-top " href="/pages/productos.html">Productos</a>
+                <a class="navbar-brand align-text-top " href="/pages/guarderia.html">Guardería</a>
+                <a class="navbar-brand align-text-top " href="/pages/promociones.html">Promociones</a>
+            </div>
+            <div class="boxlogo">
+                <img src="/assets/img/logoManchitas.png" alt="logo manchitas" class="logo">
+            </div>
+            <div class="agendatucita">
+                <h3>Agenda tu Cita Veterinaria</h3>
+                <a href="/pages/formulario.html"><button type="button">Aquí</button></a>
             </div>
         </div>
     </header>
     <main>
-        <div class="container p-5" id="containerform" >
+        <div id="imagentexto">
+            <img src="/assets/img/contactanos/banner.jpg" alt="" id="banner">
+            <div></div>
+            <h3>¡Nos alegra servirte!</h3>
+        </div>
+        <div class="container p-5" id="containerform">
             <div class="row">
-              <div class="col col-lg-2"  id="colizq"></div>
-              <div class="col-md-8" id="colform" >
-                <form action="form1" id="form">
-                    <input type="text" class="form-control" name="from_name" id="idnom" required="required" placeholder="Nombre*">
-                    <br>
-                    <input type="email" class="form-control" name="email" id="idemail" required="required" placeholder="Correo electrónico*" >
-                    <br>
-                    <input type="text" class="form-control" name="asunto" id="idasunto" placeholder="Tema o asunto">
-                    <br>
-                    <textarea type="text" class="form-control" name="mensaje" id="idmensaje" placeholder="Mensaje*"></textarea>
-                    <br>
-                    <div class="relative fullwidth col-xs-12 d-flex  justify-content-center pt-5">
-                        <input type="submit" id="button"  onclick='onSubmit()' value="Enviar mensaje"> 
-                    </div>
-                </form>
-                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">  
-                </script>
-                <script type="text/javascript">
-                    emailjs.init('99KskpObG2idctrvb')
-                </script>
-              </div>
-              <div class="col col-lg-2">
-              </div>
+                <div class="col col-lg-2" id="colizq"></div>
+                <div class="col-md-8" id="colform">
+                    <form action="form1" id="form">
+                        <input type="text" class="form-control" name="from_name" id="idnom" required="required"
+                            placeholder="Nombre*">
+                        <br>
+                        <input type="email" class="form-control" name="email" id="idemail" required="required"
+                            placeholder="Correo electrónico*">
+                        <br>
+                        <input type="text" class="form-control" name="asunto" id="idasunto" placeholder="Tema o asunto">
+                        <br>
+                        <textarea type="text" class="form-control" name="mensaje" id="idmensaje" required="required"
+                            placeholder="Mensaje*"></textarea>
+                        <br>
+                        <div class="relative fullwidth col-xs-12 d-flex  justify-content-center pt-5">
+                            <input type="submit" id="button" onclick='onSubmit()' value="Enviar mensaje">
+                        </div>
+                    </form>
+                    <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                        </script>
+                    <script type="text/javascript">
+                        emailjs.init('99KskpObG2idctrvb')
+                    </script>
+                </div>
+                <div class="col col-lg-2">
+                </div>
             </div>
-          </div> 
+        </div>
     </main>
     <footer>
-        <div class="container">
-            <div class="row text-center" id="boxfooter">
-                <div class="col-2">
-                    <div class="franjasf" id="franja1"></div>
-                    <div class="franjasf" id="franja2"></div>
-                    <div class="franjasf" id="franja3"></div>
-                </div>
-                <div class="col-4 text-center align-self-center" >
-                    <div class="col">
-                      <h1 class="display-4"><strong>Contáctanos</strong></h1>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="franjasf p-2" id="franja1"></div>
-                    <div class="franjasf p-2" id="franja2"></div>
-                    <div class="franjasf p-2" id="franja3"></div>
-                </div>
+        <div class="container" id="contfooter">
+            <div class="boxcontac">
+                <a href="/pages/contactanos.html"><i class="fa-solid fa-envelope fa-5x" style="color: #ffffff;"></i>
+                    <h4>contáctanos</h4>
+                </a>
             </div>
+            <div class="boxredes">
+                <h4>Nuestras redes sociales</h4>
+                <a href="https://www.facebook.com/profile.php?id=61554135263797" target="_blank"><i
+                        class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/manchitasveterinaria.g5/" target="_blank"><i
+                        class="fa-brands fa-instagram fa-2x" style="color: #ffffff;"></i></a>
+                <a href="https://www.youtube.com/@Manchitas-vq6lf" target="_blank"><i class="fa-brands fa-youtube fa-2x"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://wa.me/573202592320" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"
+                        style="color: #ffffff;"></i></a>
+
+                <!-- 
+                -------------------------------------------------------------------
+                CRDENCIALES MANCHITAS
+            
+                CORREO (GMAIL)
+                Correo: manchitasveterinaria.g5@gmail.com
+                Clave: Manchitasveterinaria123
+            
+                FACEBOOK
+                Usuario (Ingreso con correo): manchitasveterinaria.g5@gmail.com
+                Clave: Manchitasveterinaria123
+            
+                INSTAGRAM
+                ~ Creado a partir de Facebook ~
+                Usuario: manchitasveterinaria.g5
+                Clave: Manchitasveterinaria123
+
+                YOUTUBE
+                ~ Ingreso con Google ~
+                Identificador: @Manchitas-vq6lf
+                -------------------------------------------------------------------
+                -->
+            </div>
+            <div class="boxmapa">
+                <a href="https://maps.app.goo.gl/C7EW2qKK2CkTWKnCA" target="_blank"><i
+                        class="fa-solid fa-map-location-dot fa-5x" style="color: #ffffff;"></i>
+                    <h4>¿Cómo llegar?</h4>
+                </a>
+            </div>
+            <span id="creadopor">&copy;Creado por Grupo 5 JavaScript InfoCenter 2023</span>
         </div>
     </footer>
 </body>
@@ -93,40 +129,41 @@
 <script>
     const btn = document.getElementById('button');
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+    document.getElementById('form')
+        .addEventListener('submit', function (event) {
+            event.preventDefault();
 
-   btn.value = 'Enviando...';
+            btn.value = 'Enviando...';
 
-   const serviceID = 'default_service';
-   const templateID = 'template_vvmfxm9';
+            const serviceID = 'default_service';
+            const templateID = 'template_vvmfxm9';
 
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Enviar mensaje';
-      alert('Mensaje enviado');
-    }, (err) => {
-      btn.value = 'Enviar mensaje';
-      alert(JSON.stringify(err));
-    });
-});
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    btn.value = 'Enviar mensaje';
+                    alert('Mensaje enviado');
+                }, (err) => {
+                    btn.value = 'Enviar mensaje';
+                    alert(JSON.stringify(err));
+                });
+        });
 </script>
 
 <!-- script que borra los campos llenos en el formulario -->
 <script>
-    function onSubmit(){
-    Event.preventDefault(); //evita que se actualice la página al enviar
+    function onSubmit() {
+        Event.preventDefault(); //evita que se actualice la página al enviar
 
-    const nombre = document.getElementById('idnom'); //obtener el campo de entrada
-    const email = document.getElementById('idemail');
-    const asunto = document.getElementById('idasunto');
-    const mensaje = document.getElementById('idmensaje');
+        const nombre = document.getElementById('idnom'); //obtener el campo de entrada
+        const email = document.getElementById('idemail');
+        const asunto = document.getElementById('idasunto');
+        const mensaje = document.getElementById('idmensaje');
 
-    nombre.value = ''; //borrar el campo de entrada
-    email.value = '';
-    asunto.value = '';
-    mensaje.value = '';
-}
+        nombre.value = ''; //borrar el campo de entrada
+        email.value = '';
+        asunto.value = '';
+        mensaje.value = '';
+    }
 </script>
+
 </html>

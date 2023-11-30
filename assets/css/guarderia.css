@@ -1,62 +1,174 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(90deg,#fff,#fff, #d9dada,#fff,#fff);
+    background: linear-gradient(90deg, #fff, #fff, #d9dada, #fff, #fff);
 }
 
 /*header*/
-#contnav{
+#contnav {
     height: 200px;
-    background: linear-gradient(#262626, #141e44,#262626);
+    background: linear-gradient(#262626, #141e44, #262626);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
+    border: 3px solid yellowgreen;
 }
 
-.boxicon{
+.boxicon {
     display: flex;
-    color:white;
+    color: white;
     align-items: center;
 }
 
-.boxmenu{
+h4 {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.boxmenu {
     display: flex;
 }
-.boxmenu a{
+
+.boxmenu a {
     color: azure;
-    padding:15px;
+    padding: 15px;
 }
 
-.boxmenu a:hover{
+.boxmenu a:hover {
     color: yellowgreen;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-
-.boxlogo img{
-    margin-left: auto;
+.boxlogo img {
+    margin-left: 40px;
     margin-right: auto;
     font-size: larger;
+    width: 90%;
 }
+
+/*-----------------AGENDAR CITA-------------------*/
+.agendatucita {
+    border: unset;
+    display: flex;
+    font-size: small;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    position: absolute;
+    left: 24%;
+    top: 16%;
+    border-radius: 16px;
+    background: white;
+    width: 350px;
+    box-shadow: -3px 2px 4px #262626;
+    z-index: 1;
+}
+
+.agendatucita button {
+    right: 5%;
+    background: #00BF75;
+    padding: 8px 16px;
+    border: unset;
+    border-radius: 8px;
+    color: white;
+    top: 15%;
+    position: absolute;
+}
+
+.agendatucita button:hover {
+    background: #009159
+}
+
+.agendatucita h3 {
+    font-size: medium;
+    background-color: unset;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+
+/*footer*/
+#contfooter {
+    height: 200px;
+    background: linear-gradient(#262626, #141e44, #262626);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    border: 3px solid yellowgreen;
+    text-align: center;
+    color: blanchedalmond;
+    display: flex;
+}
+
+#contfooter h4 {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.boxcontac,
+.boxcontac h4,
+.boxcontac i,
+.boxcontac a {
+    width: auto;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+.boxredes,
+.boxredes h4,
+.boxredes i {
+    width: auto;
+    padding: 0;
+}
+
+.boxredes i {
+    margin-left: 12px;
+    margin-top: 30px;
+}
+
+.boxmapa,
+.boxmapa h4,
+.boxmapa i,
+.boxmapa a {
+    width: auto;
+    text-decoration: none;
+    padding: 0;
+}
+
+.boxcontac,
+.boxredes,
+.boxmapa {
+    width: 415px;
+}
+
+#creadopor {
+    position: absolute;
+    bottom: -105%;
+    right: 39%;
+    color: blanchedalmond;
+}
+
+
 
 /*titulo seccion*/
 
-.subtitulo{
+.subtitulo {
     text-align: center;
     margin: 20px;
-    
+
 }
 
-h1{
+h1 {
     padding-left: 10px;
     padding-right: 20px;
     font-weight: bold;
@@ -64,14 +176,14 @@ h1{
 
 /*estilos seccion 1*/
 
-.pack1{
+.pack1 {
     margin: 20px;
     display: flex;
-    color: aliceblue; 
+    color: aliceblue;
 }
 
 
-.sec1{
+.sec1 {
     height: 350px;
     width: 250px;
     padding: 15px;
@@ -81,22 +193,22 @@ h1{
 }
 
 
-#diurna{
+#diurna {
     background-color: #00BF75;
     align-items: center;
 }
 
-#nocturna{
+#nocturna {
     background-color: #373838;
     align-items: center;
 }
 
-#emergencia{
+#emergencia {
     background-color: #6f7070;
     align-items: center;
 }
 
-.burbuja{
+.burbuja {
     color: #262626;
     background-color: #fff;
     width: 200px;
@@ -117,7 +229,7 @@ h1{
 
 /*estilos seccion 2*/
 
-.pack2{
+.pack2 {
     float: right;
     display: flex;
     color: aliceblue;
@@ -125,7 +237,7 @@ h1{
     margin-right: 175px;
 }
 
-.sec2{
+.sec2 {
     height: 350px;
     width: 250px;
     padding: 15px;
@@ -134,22 +246,22 @@ h1{
     margin: 10px;
 }
 
-#entrena{
+#entrena {
     background-color: #373838;
     align-items: center;
 }
 
-#transporte{
+#transporte {
     background-color: #6f7070;
     align-items: center;
 }
 
-#camaras{
+#camaras {
     background-color: #00BF75;
     align-items: center;
 }
 
-.burbuja2{
+.burbuja2 {
     color: #262626;
     background-color: #fff;
     width: 200px;
@@ -170,27 +282,27 @@ h1{
 
 /*Estilos seccion 3 OTROS SERVICIOS*/
 
-#seccion2{
+#seccion2 {
     float: inline-end;
     margin-top: 20px;
 }
 
-.servicios{
+.servicios {
     display: flex;
     width: 100%;
 }
 
-.otros{
+.otros {
     display: flex;
 }
 
 /* flotante cota*/
 
-.ladoCita{
+.ladoCita {
     width: 30%;
 }
 
-.cajaCita{
+.cajaCita {
     padding-left: 30px;
     padding-right: 30px;
     align-items: center;
@@ -202,7 +314,7 @@ h1{
     box-shadow: #414040 3px 2px 6px;
 }
 
-.botonCita{
+.botonCita {
     height: 40px;
     width: 120px;
     background-color: #00BF75;
@@ -213,20 +325,20 @@ h1{
     padding-top: 8px;
 }
 
-.botonCita a{
+.botonCita a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
 
-h5{
+h5 {
     font-weight: bolder;
 }
 
-#imghuellas{
+#imghuellas {
     width: 400px;
 }
 
-#tematico{
+#tematico {
     background-color: #00BF75;
     color: #fff;
     border-bottom-left-radius: 200px;
@@ -241,7 +353,7 @@ h5{
 
 /* semicirculos otros servicios*/
 
-#spa{
+#spa {
     background-color: #ffffff;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
@@ -252,7 +364,7 @@ h5{
     font-size: large;
 }
 
-#paseos{
+#paseos {
     background-color: #414040;
     color: #fff;
     border-bottom-left-radius: 100px;
@@ -266,55 +378,13 @@ h5{
 }
 
 /*seccion 3 video*/
-#seccion3{
+#seccion3 {
     display: flex;
     align-items: center;
 }
 
-video{
+video {
     padding: 30px;
     border-radius: 40px;
     box-shadow: #6f7070 2px 1px 3px;
 }
-
-
-/*footer*/
-#contfooter{
-    height: 200px;
-    background: linear-gradient(#262626, #141e44,#262626);
-    border-radius: 20px;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    align-items: center;
-}
-#contfooter h4{
-    text-align: center;
-    color: blanchedalmond;
-}
-
-footer{
-    text-align: center;
-    color: white;
-}
-
-.boxcontac{
-    width: 33.3333%;
-}
-
-.boxredes{
-    width: 33.3333%;
-}
-
-.fa-brands{
-    padding: 10px;
-}
-
-.boxmapa{
-    width: 33.3333%;
-}
-
-.fa-solid{
-    padding-bottom: 10px;
-}
-
-

@@ -1,153 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/index.css">
-    <script src="https://kit.fontawesome.com/a2c25d4acb.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="shortcut icon" href="../assets/img/iconoManchitas.png">
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/peticionesAjax.js"></script>
+    <script src="https://kit.fontawesome.com/a2c25d4acb.js" crossorigin="anonymous"></script>
     <title>Manchitas</title>
 </head>
+
 <body class="container" id="cuerpo">
     <header>
         <div class="container" id="contnav">
             <div class="boxicon">
-                <img src="../assets/img/iconoManchitas.png" alt="icono manchitas" width="60" height="60" class="icon">
+                <img src="/assets/img/iconoManchitas.png" alt="icono manchitas" width="60" height="60" class="icon">
                 <h4>Veterinaria</h4>
             </div>
             <div class="boxmenu">
-                <a class="navbar-brand align-text-top " href="../pages/index.html">Inicio</a>
-                <a class="navbar-brand align-text-top " href="../pages/servicios.html">Servicios</a>
-                <a class="navbar-brand align-text-top " href="../pages/productos.html">Productos</a>
-                <a class="navbar-brand align-text-top " href="../pages/guarderia.html">Guardería</a>
-                <a class="navbar-brand align-text-top " href="../pages/promociones.html">Promociones</a>
+                <a class="navbar-brand align-text-top " href="/pages/index.html">Inicio</a>
+                <a class="navbar-brand align-text-top " href="/pages/servicios.html">Servicios</a>
+                <a class="navbar-brand align-text-top " href="/pages/productos.html">Productos</a>
+                <a class="navbar-brand align-text-top " href="/pages/guarderia.html">Guardería</a>
+                <a class="navbar-brand align-text-top " href="/pages/promociones.html">Promociones</a>
             </div>
             <div class="boxlogo">
-                <img src="../assets/img/logoManchitas.png" alt="logo manchitas" height="200" class="logo">
-            </div> 
+                <img src="/assets/img/logoManchitas.png" alt="logo manchitas" class="logo">
+            </div>
+            <div class="agendatucita">
+                <h3>Agenda tu Cita Veterinaria</h3>
+                <a href="/pages/formulario.html"><button type="button">Aquí</button></a>
+            </div>
         </div>
     </header>
-    <div class="agendatucita">
-        <h3>Agenda tu Cita Veterinaria</h3>
-        <a href="./formulario.html"><button type="button">Clic aquí</button></a>
-    </div>
     <main>
-        <section class="container" id="seccion1">
-            <div class="sec1" id="boxtext">
-                <h1>Bienvenidos a nuestra</h1>
-                <h1>Veterinaria especializada</h1>
-                <h1>en Perros y Gatos</h1> 
-            </div>
-            <div class="sec1" id="boximg1">
-                <img src="../assets/img/index/gato1.jpg" alt="imagen gato solo " id="imgcat1">
-            </div>
-        </section>
-        <section class="container" id="seccion2">
-            <div class="sec2" id="boxtext2">
-                <h4>Donde cuidamos</h4>
-                <h4>y amamos a tus fieles</h4>
-                <h4>compañeros con pasión</h4> 
-            </div>
-            <div class="sec2" id="boximg2">
-                <img src="../assets/img/index/catdog1.jpg" alt="perro y gato juntos " id="imgcatdog1">
-            </div>
-            <div class="sec2" id="boximg3">
-                <img src="../assets/img/index/perro1.jpg" alt="perro" id="imgdog1">
-            </div>
-        </section>
-        <section class="container" id="seccion3">
-            <div class="sec3" id="boxtext3">
-                <h2>Únete a nuestra</h2>
-                <h2>comunidad y chatea</h2>
-                <h2>con nosotros</h2>
-            </div>
-            <div class="sec3" id="boxtext4">
-                <div id="chat1">
-                    <p>Hola Manchitas, quiero viajar</p>
-                    <p>con mi mascota,... ¿Puedo?</p>
+        <article class="secciones">
+            <section class="container" id="seccion1">
+                <div class="sec1" id="boxtext">
+                    <h1>Bienvenidos a nuestra</h1>
+                    <h1>Veterinaria especializada</h1>
+                    <h1>en Perros y Gatos</h1>
                 </div>
-            </div>
-            <div class="sec3" id="boximg4">
-                <img src="../assets/img/index/foto1sec3.jpg" alt="chatear" id="imgchat1">
-            </div>
-        </section>
-        <section class="container" id="seccion4">
-            <div class="sec4" id="boxtext5">
-                <h2>Conéctate con nosotros</h2>
-                <h2>desde cualquier lugar</h2>
-            </div>
-            <div class="sec4" id="boximg5">
-                <img src="../assets/img/index/imgConexiocelular.jpg" alt="foto conexion celular" id="imgconexion">
-            </div>
-            <div class="sec4" id="boxtext6">
-                <div id="chat2">
-                    <p>Hola... ¿qué mascota tienes?</p>
+                <div class="sec1" id="boximg1">
+                    <img src="../assets/img/index/gato1.jpg" alt="imagen gato solo " id="imgcat1">
                 </div>
-                <div id=chat3>
-                    <p>Sí puedes viajar con tu mascota</p>
-                    <p>y lo mejor, Cómodamente</p>
+            </section>
+            <section class="container" id="seccion2">
+                <div class="sec2" id="boxtext2">
+                    <h4>Donde cuidamos</h4>
+                    <h4>y amamos a tus fieles</h4>
+                    <h4>compañeros con pasión</h4>
                 </div>
-            </div>
-        </section>
-        <section class="container" id="seccion5">
-            <div class="sec5" id="boximg6">
-                <img src="../assets/img/index/callcenter.jpg" alt="foto personas callcenter" id="imgcallcenter">
-            </div>
-            <div class="sec5" id="boximg7">
-                <img src="../assets/img/index/callcenter2.jpg" alt="persona con auricular" id="imgcallcenter2">
-                <div id="aro"></div>
-                <div id="boxvideocall">
-                    <div class="circulo">
-                        <i class="fa-solid fa-video fa-2xl" style="color: #ffffff;"></i>
+                <div class="sec2" id="boximg2">
+                    <img src="../assets/img/index/catdog1.jpg" alt="perro y gato juntos " id="imgcatdog1">
+                </div>
+                <div class="sec2" id="boximg3">
+                    <img src="../assets/img/index/perro1.jpg" alt="perro" id="imgdog1">
+                </div>
+            </section>
+            <section class="container" id="seccion3">
+                <div class="sec3" id="boxtext3">
+                    <h2>Únete a nuestra</h2>
+                    <h2>comunidad y chatea</h2>
+                    <h2>con nosotros</h2>
+                </div>
+                <div class="sec3" id="boxtext4">
+                    <div id="chat1">
+                        <p>Hola Manchitas, quiero viajar</p>
+                        <p>con mi mascota,... ¿Puedo?</p>
                     </div>
-                    <a class="iniciallamada" href="https://call.whatsapp.com/video/FAufYq8B0gRAsSS7ixzEfO">Iniciar video asistencia</a>
                 </div>
-            </div>
-            <div class="sec5" id="boxmenu2">
-                <a class="menu2" href="../pages/servicios.html">1. Servicios</a>
-                <br>
-                <br>
-                <hr>
-                <br>
-                <a class="menu2" href="../pages/productos.html">2. Productos</a>
-                <br>
-                <br>
-                <hr>
-                <br>
-                <a class="menu2" href="../pages/guarderia.html">3. Guardería</a>
-                <br>
-                <br>
-                <hr>
-                <br>
-                <a class="menu2" href="../pages/promociones.html">4. Promociones</a>
-                <br>
-                <br>
-                <hr>
-            </div>
-        </section>
+                <div class="sec3" id="boximg4">
+                    <img src="../assets/img/index/foto1sec3.jpg" alt="chatear" id="imgchat1">
+                </div>
+            </section>
+            <section class="container" id="seccion4">
+                <div class="sec4" id="boxtext5">
+                    <h2>Conéctate con nosotros</h2>
+                    <h2>desde cualquier lugar</h2>
+                </div>
+                <div class="sec4" id="boximg5">
+                    <img src="../assets/img/index/imgConexiocelular.jpg" alt="foto conexion celular" id="imgconexion">
+                </div>
+                <div class="sec4" id="boxtext6">
+                    <div id="chat2">
+                        <p>Hola... ¿qué mascota tienes?</p>
+                    </div>
+                    <div id=chat3>
+                        <p>Sí puedes viajar con tu mascota</p>
+                        <p>y lo mejor, Cómodamente</p>
+                    </div>
+                </div>
+            </section>
+            <section class="container" id="seccion5">
+                <div class="sec5" id="boximg6">
+                    <img src="../assets/img/index/callcenter.jpg" alt="foto personas callcenter" id="imgcallcenter">
+                </div>
+                <div class="sec5" id="boximg7">
+                    <img src="../assets/img/index/callcenter2.jpg" alt="persona con auricular" id="imgcallcenter2">
+                    <div id="aro"></div>
+                    <div id="boxvideocall">
+                        <div class="circulo">
+                            <i class="fa-solid fa-video fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                        <a class="iniciallamada" href="https://call.whatsapp.com/video/FAufYq8B0gRAsSS7ixzEfO">Iniciar
+                            video
+                            asistencia</a>
+                    </div>
+                </div>
+                <div class="sec5" id="boxmenu2">
+                    <a class="menu2" href="/pages/servicios.html">1. Servicios</a>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <a class="menu2" href="/pages/productos.html">2. Productos</a>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <a class="menu2" href="/pages/guarderia.html">3. Guardería</a>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <a class="menu2" href="/pages/promociones.html">4. Promociones</a>
+                    <br>
+                    <br>
+                    <hr>
+                </div>
+            </section>
+        </article>
     </main>
     <footer>
         <div class="container" id="contfooter">
             <div class="boxcontac">
-                <a href="../pages/contactanos.html"><i class="fa-solid fa-envelope fa-5x" style="color: #ffffff;"></i></a>
-                <h4>Contáctanos</h4>
+                <a href="/pages/contactanos.html"><i class="fa-solid fa-envelope fa-5x" style="color: #ffffff;"></i>
+                    <h4>contáctanos</h4>
+                </a>
             </div>
             <div class="boxredes">
-                <h2>Nuestras redes sociales</h2>
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-3x" style="color: #ffffff;"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-3x" style="color: #ffffff;"></i></a>
-                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-3x" style="color: #ffffff;"></i></a>
-                <a href="https://wa.me/573202592320" target="_blank"><i class="fa-brands fa-whatsapp fa-3x" style="color: #ffffff;"></i></a>
-                <p>&copy;Creado por: Grupo 5 JavaScript InfoCenter 2023</p>
+                <h4>Nuestras redes sociales</h4>
+                <a href="https://www.facebook.com/profile.php?id=61554135263797" target="_blank"><i
+                        class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/manchitasveterinaria.g5/" target="_blank"><i
+                        class="fa-brands fa-instagram fa-2x" style="color: #ffffff;"></i></a>
+                <a href="https://www.youtube.com/@Manchitas-vq6lf" target="_blank"><i class="fa-brands fa-youtube fa-2x"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://wa.me/573202592320" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"
+                        style="color: #ffffff;"></i></a>
+
+                <!-- 
+                -------------------------------------------------------------------
+                CRDENCIALES MANCHITAS
+            
+                CORREO (GMAIL)
+                Correo: manchitasveterinaria.g5@gmail.com
+                Clave: Manchitasveterinaria123
+            
+                FACEBOOK
+                Usuario (Ingreso con correo): manchitasveterinaria.g5@gmail.com
+                Clave: Manchitasveterinaria123
+            
+                INSTAGRAM
+                ~ Creado a partir de Facebook ~
+                Usuario: manchitasveterinaria.g5
+                Clave: Manchitasveterinaria123
+
+                YOUTUBE
+                ~ Ingreso con Google ~
+                Identificador: @Manchitas-vq6lf
+                -------------------------------------------------------------------
+                -->
             </div>
             <div class="boxmapa">
-                <a href="https://maps.app.goo.gl/C7EW2qKK2CkTWKnCA" target="_blank"><i class="fa-solid fa-map-location-dot fa-5x"  style="color: #ffffff;"></i></a>
-                <h4>¿Cómo llegar?</h4>
-            </div>  
+                <a href="https://maps.app.goo.gl/C7EW2qKK2CkTWKnCA" target="_blank"><i
+                        class="fa-solid fa-map-location-dot fa-5x" style="color: #ffffff;"></i>
+                    <h4>¿Cómo llegar?</h4>
+                </a>
+            </div>
+            <span id="creadopor">&copy;Creado por Grupo 5 JavaScript InfoCenter 2023</span>
         </div>
     </footer>
 </body>
+
 </html>
