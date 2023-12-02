@@ -12,15 +12,15 @@ class Conexion{
         $this->user =  "root";
         $this->pass =  "";
         $this->db_name =  "manchitasdb";
-        $this->con = new mysqli ($this->host,$this->user,$this->db_name,$this->db_name);
-        $this->con->set_charset("utf8");
+        $this->con = new mysqli ($this->host, $this->user, $this->pass, $this->db_name);
+        $this->con->set_charset("utf8"); //ñ y tildes
         if($this->con->connect_error){
             echo "Error al conectar a la base de datos";
         }else{
             //echo "Conexión exitosa";
         }
     }
-    // para retornar o traer informacion
+
     //funcion para retornar datos
     public function retornarDatos($consulta){
         try {

@@ -1,3 +1,6 @@
 <?php
-include_once "pages/index.html"
+//probar la conexión
+/* require_once "api/conexion.php";
+$conexion = new Conexion(); */
+include_once "pages/formulario.html"
 ?>
