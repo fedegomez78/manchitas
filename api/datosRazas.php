@@ -1,8 +1,7 @@
 <?php
- 
 require_once "conexion.php";
 $conexion = new Conexion();
- 
+
 $consulta = "SELECT id, raza FROM razas ORDER BY raza ASC;";
 $datos = $conexion->retornarDatos($consulta);
 $razas = array();
