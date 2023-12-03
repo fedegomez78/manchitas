@@ -69,8 +69,10 @@ function guardarCita() {
             let form = document.getElementById("formularioCita");
             form.reset();
             $("#razas").val("").trigger("change.select2");
+        } else if (respuesta == "2") {
+            alert("La fecha y/o la hora seleccionada ya se encuentra registrada, por favor, inténtelo de nuevo con una diferente.");
         } else {
-            alert("Error al registrar \nIntente más tarde...");
+            alert("Error al registrar \nIntente más tarde...")
         }
     }).fail(function (error) {
         console.log(error);
