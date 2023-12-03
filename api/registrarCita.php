@@ -27,5 +27,5 @@ if($array == null){
     }
 }else if($array["fecha"]==$fecha && date("H:i", strtotime($array["hora"])==$horaSinSeg)){
     echo json_encode("2");
-} 
+}
 ?>
